@@ -5,7 +5,7 @@ metadata:
   labels:
     run: studentapp
 spec:
-  type: NodePort
+  type: LoadBalancer
   ports:
   - port: 8080
     targetPort: 8080
