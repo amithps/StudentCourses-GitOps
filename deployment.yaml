@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
       - name: studentapp
-        image: devopseasy/studentapp:
+        image: amithps/studentapp:
         ports:
           - containerPort: 8080
         imagePullPolicy: IfNotPresent
